@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AZOOM Car Rental</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <!-- Css file -->
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+  <header class="header">
+    <div id="menu-btn" class="fas fa-bars"></div>
+    <a href="#" class="logo">AZoom Car <span>Rental</span></a>
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#vehicles">Vehicles</a>
+      <a href="#reviews">Reviews</a>
+
+
+
+    </nav>
+    <div id="loginbtn"> 
+      <button type="button" class="btn">Login</button>
+      <i class="fa-regular fa-user"></i>
+    </div>
+
+
+  </header>
+  <!-- Login -->
+<div class="login-container">
+  <span class="fas fa-times" id="close-login"></span>
+  
+  <form action="">
+    <h3>User Login</h3>
+      <input id="email" type="email" placeholder="Email" class="box">
+      <input id="password" type="password" placeholder="Password" class="box">
+      <p>Forget your password <a href="#">Click Here!</a></p>
+      <div class="buttons">
+        <input id="Login" value="Login now" class="btn" onclick="auth()">
+      </div>
+      <p>Don't have an account?<a href="#">Create one!</a></p>
+  </form>
+</div>
+
+<!-- Home -->
+<section class="home" id="home">
+  
+  <h1 class="home-parallax" data-speed="-2">Find your car</h1>
+  <img class="home-parallax" data-speed="5" src="Image/home.jpg" alt="">
+  <a href="#" class="btn home-parallax" data-speed="7">Explore Cars</a>
+
+</section>
+
+<!-- Icon -->
+<section class="icons-container">
+
+  <div class="icons">
+    <i class="fas fa-home"></i>
+    <div class="content">
+      <h3>3</h3>
+      <p>branches</p>
+    </div>
+  </div>
+
+  <div class="icons">
+    <i class="fas fa-car"></i>
+    <div class="content">
+      <h3>150+</h3>
+      <p>Cars</p>
+    </div>
+  </div>
+  
+  <div class="icons">
+    <i class="fas fa-users"></i>
+    <div class="content">
+      <h3>650+</h3>
+      <p>Users</p>
+    </div>
+  </div>
+  
+  <div class="icons">
+    <i class="fas fa-car"></i>
+    <div class="content">
+      <h3>60+</h3>
+      <p>Cars on road</p>
+    </div>
+  </div>
+
+</section>
+<!-- Vehicle -->
+<section class="vehicles" id="vehicle">
+
+  <h1 class="heading">Popular <span>Vehicles</span></h1>
+
+  <div class="swiper vehicle-slider">
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide box">
+        <img src="Image/vehicle1.jpg" alt="">
+        <div class="content">
+          <h3>Tesla 2023</h3>
+          <div class="price"><span>Price:</span> $150/day</div>
+          <p>
+            <span class="fas fa-circle"></span> 2023
+            <span class="fas fa-circle"></span> Automatic
+            <span class="fas fa-circle"></span> Electric
+            <span class="fas fa-circle"></span> 185mph
+          </p>
+          <div id="rent-button">
+            <button type="button" id ="rent-button1" class="btn">Rent Now</button>
+        </div>
+        </div>
+      </div>
+      <div class="swiper-slide box">
+        <img src="Image/vehicle2.jpg" alt="">
+        <div class="content">
+          <h3>Tesla X</h3>
+          <div class="price"><span>Price:</span> $100/day</div>
+          <p>
+            <span class="fas fa-circle"></span> 2021
+            <span class="fas fa-circle"></span> Automatic
+            <span class="fas fa-circle"></span> Electric
+            <span class="fas fa-circle"></span> 185mph
+          </p>
+          <button type="button" id ="rent-button2" class="btn">Rent Now</button>
+        </div>
+      </div>
+      <div class="swiper-slide box">
+        <img src="Image/vehicle3.jpg" alt="">
+        <div class="content">
+          <h3>Tesla U</h3>
+          <div class="price"><span>Price:</span> $100/day</div>
+          <p>
+            <span class="fas fa-circle"></span> 2021
+            <span class="fas fa-circle"></span> Automatic
+            <span class="fas fa-circle"></span> Electric
+            <span class="fas fa-circle"></span> 185mph
+          </p>
+          <button type="button" id ="rent-button3" class="btn">Rent Now</button>
+        </div>
+      </div>
+      <div class="swiper-slide box">
+        <img src="Image/vehicle4.jpg" alt="">
+        <div class="content">
+          <h3>Tesla Y</h3>
+          <div class="price"><span>Price:</span> $100/day</div>
+          <p>
+            <span class="fas fa-circle"></span> 2021
+            <span class="fas fa-circle"></span> Automatic
+            <span class="fas fa-circle"></span> Electric
+            <span class="fas fa-circle"></span> 185mph
+          </p>
+          <button type="button" id ="rent-button4" class="btn">Rent Now</button>
+        </div>
+      </div>
+      <div class="swiper-slide box">
+        <img src="Image/vehicle5.jpg" alt="">
+        <div class="content">
+          <h3>Tesla P</h3>
+          <div class="price"><span>Price:</span> $100/day</div>
+          <p>
+            <span class="fas fa-circle"></span> 2021
+            <span class="fas fa-circle"></span> Automatic
+            <span class="fas fa-circle"></span> Electric
+            <span class="fas fa-circle"></span> 185mph
+          </p>
+          <button type="button" id ="rent-button5" class="btn">Rent Now</button>
+        </div>
+      </div>
+      <div class="swiper-slide box">
+        <img src="Image/vehicle5.jpg" alt="">
+        <div class="content">
+          <h3>Tesla O</h3>
+          <div class="price"><span>Price:</span> $100/day</div>
+          <p>
+            <span class="fas fa-circle"></span> 2021
+            <span class="fas fa-circle"></span> Automatic
+            <span class="fas fa-circle"></span> Electric
+            <span class="fas fa-circle"></span> 185mph
+          </p>
+          <button type="button" id ="rent-button6" class="btn">Rent Now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="swiper-pagination"></div>
+
+  </div>
+
+  <!-- Rent form -->
+  <div class="rent-container">
+    <span class="fas fa-times" id="close-rent"></span>
+    
+    <form action="">
+      <h3>User Login</h3>
+        <input id="email" type="email" placeholder="Email" class="box">
+        <input id="password" type="password" placeholder="Password" class="box">
+        <p>Forget your password <a href="#">Click Here!</a></p>
+        <div class="buttons">
+          <input id="Login" value="Login now" class="btn" onclick="auth()">
+        </div>
+        <p>Don't have an account?<a href="#">Create one!</a></p>
+    </form>
+  </div>
+
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- icon font link -->
+  <script src="https://kit.fontawesome.com/3eec549bec.js" crossorigin="anonymous"></script>
+  
+  <!-- Javascript -->
+  <script src="Script.js"></script>
+</body>
+</html>
